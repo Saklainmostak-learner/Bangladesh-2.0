@@ -1,0 +1,44 @@
+/* Basic reset */
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+/* Header Style */
+.main-header{
+    width: 100%;
+    background-color: #F5F5F5;
+    border-bottom: 32px  ;
+    padding: 19px;
+}
+
+/* Content Alignment */
+.container{
+    max-width: 1218px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 19px ;
+}
+/* Logo Style */
+.logo h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+/* Sing In button style */
+.btn{
+    background-color: transparent;
+    border: 1px solid #006A50;
+    padding:15px 30px ;
+    border-radius: 8px;
+    font-weight: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    background-color: #8aefd6;
+    color:#0501015a ;
+}
