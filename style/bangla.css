@@ -5,13 +5,14 @@
     box-sizing: border-box;  
 }
 body{
-    font-family: 'Fira Sans',sans-serif;
+    font-family: 'Open Sans',sans-serif;
 }
 /* Header Style */
 .main-header{
     width: 100%;
     background-color: #F5F5F5;
-    border-bottom: 32px;
+    /* border-bottom: 32px; */
+    border-bottom: 1px solid #f5f5f553;
     padding: 19px;
 }
 
@@ -26,6 +27,7 @@ body{
 }
 /* Logo Style */
 .logo h1{
+     font-family: 'Fira Sans',sans-serif;
     font-size: 32px;
     font-weight: bold;
     color: #0E0E0E;
@@ -44,4 +46,59 @@ body{
 .btn:hover{
     background-color: #8aefd6;
     color:#0501015a;
+}
+/* Hero Section Style */
+.hero-section{
+    background-color: #C6E4D6;
+    padding: 80px 100px;
+    min-height:450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius:25px ;
+    margin:32px 160px ;
+}
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+}
+/* text content style */
+.hero-content{
+    flex: 1;
+}
+.sub-title{
+    font-size: 24px;
+    color: #0E0E0E;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 16px;
+}
+.hero-content h1{
+    font-size: 56PX;
+    line-height: 1.2;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+    font-family:'Fira Sans',sans-serif ;
+}
+/*button style */
+.ex-btn{
+    background-color: #006A50;
+    color: #FFFFFF;
+    border: none;
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.ex-btn:hover{
+    background-color: #383a39ac;
+}
+/* image style */
+.hero-image{
+    max-width: 100%;
+    height: auto;
 }
