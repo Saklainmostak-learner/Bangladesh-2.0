@@ -236,3 +236,65 @@ background-color:  #FFC239;
     line-height: 24px;
     margin-bottom: 12px;
  }
+ /* opinion-section */
+ .opinion-section{
+    background-color: #FFFFFF;
+    /* margin-top:80px;
+    margin-left: 160px; */
+    padding: 32px 0;
+}
+.opinion-table-container {
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+    background-color:#FFFFFF;
+    border-radius: 6px;
+}
+.opinion-table-container h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.opinion-table{
+    border: 1px solid rgba(198, 228, 214, 1);
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 16px;
+}
+.opinion-table thead{
+    background-color: #C6E4D6;
+    /* border-left: none; */
+    /* justify-content: space-between; */
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.opinion-table tbody {
+   background-color: white;
+}
+.opinion-table th{
+    text-align: left;
+    padding: 24px;
+    font: 20px;
+    font-weight: 700;
+}
+.opinion-table td{
+    padding: 36.5px;
+    border:1px solid #0e0e0e5a ;
+    font-size: 16px;
+}
+.opinion-table select{
+    padding: 24px;
+    border-radius: 5px;
+    border: 1px solid #0e0e0e78;
+    background-color: #C6E4D6;
+    cursor: pointer;
+}
+.opinion-table tr{
+    border: 1px solid #0e0e0e75;
+}
+.opinion-table tr:hover{
+    background-color: #8aefd613;
+}
+
