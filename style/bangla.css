@@ -50,19 +50,17 @@ body{
 /* Hero Section Style */
 .hero-section{
     background-color: #C6E4D6;
-    padding: 80px 100px;
-    min-height:450px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius:25px ;
-    margin:32px 160px ;
+    padding: 80px 0;
+    max-width: 1218px;
+    border-radius:25px;
+    margin:32px 160px;
 }
 .hero-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 64px;
+    padding: 0 100px;
 }
 /* text content style */
 .hero-content{
@@ -101,4 +99,40 @@ body{
 .hero-image{
     max-width: 100%;
     height: auto;
+}
+/* pillar section  */
+.pillar-section{
+    padding: 80px 0;
+    max-width: 1218px;
+    margin:32px 160px;
+}
+.pillar-container .section-title{
+font-size: 40px;
+font-weight: bold;
+margin-bottom: 32px;
+}
+.pillar-container .pillar-grid{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+.pillar-container .pillar-card{
+background-color: #FFFFFF;
+border: 1px solid #E0E0E0;
+padding: 24px;
+border-radius: 16px;
+flex: 1;
+}
+.pillar-card img{
+    width: 50px;
+    margin-bottom: 24px;
+}
+.pillar-card h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.pillar-card p{
+    font-size: 16px;
+    line-height: 24px;
 }
