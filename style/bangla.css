@@ -106,7 +106,7 @@ body{
     max-width: 1218px;
     margin:32px 160px;
 }
-.pillar-container .section-title{
+.pillar-container .section-title ,.future-container .future-title{
 font-size: 40px;
 font-weight: bold;
 margin-bottom: 32px;
@@ -127,7 +127,7 @@ flex: 1;
     width: 50px;
     margin-bottom: 24px;
 }
-.pillar-card h3{
+.pillar-card h3,.future-blue-card h3,.future-green-card h3,.future-yellow-card h3{
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 12px;
@@ -136,3 +136,82 @@ flex: 1;
     font-size: 16px;
     line-height: 24px;
 }
+/* Future Section */
+.future-section{
+    padding: 80px 0;
+    max-width: 1218px;
+    margin:32px 160px;
+} 
+.future-container .future-paragraph{
+    font-size: 16px;
+    line-height: 24px;
+    border-bottom: 32px;
+    margin-bottom: 24px;
+}
+.future-container .future-grid{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.future-grid .future-blue-card{
+background-color: #92b4ee67;
+border: 1px solid #E0E0E0;
+padding: 24px;
+border-radius: 16px;
+flex: 1;
+}
+.future-grid .future-green-card{
+   background-color: #C6E4D6;
+border: 1px solid #E0E0E0;
+padding: 24px;
+border-radius: 16px;
+flex: 1; 
+}
+.future-grid .future-yellow-card{
+    background-color: #F7EBCF;
+border: 1px solid #E0E0E0;
+padding: 24px;
+border-radius: 16px;
+flex: 1; 
+}
+.future-blue-card img ,.future-green-card img, .future-yellow-card img{
+      width: 50px;
+    margin-bottom: 24px;
+}
+.future-blue-card p, .future-green-card p, .future-yellow-card p{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.future-blue-card .lrn-btn{
+     background-color:  #5490F5;
+    border: 1px solid #00000000;
+    padding:11px 20px ;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+ .future-green-card .lrn-btn{
+background-color:  #09A15C;
+    border: 1px solid #00000000;
+    padding:11px 20px ;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+ }
+ .future-yellow-card .lrn-btn{
+background-color:  #FFC239;
+    border: 1px solid #00000000;
+    padding:11px 20px ;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+ }
+ 
