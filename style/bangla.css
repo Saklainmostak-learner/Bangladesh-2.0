@@ -376,3 +376,41 @@ flex: 1.5;
 .news-content button:hover{
     background-color: #51c7a9bd;
 }
+/* Donate Section */
+.donate-section{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-items: flex-start;
+    padding: 80px 160px;
+}
+.donate-header{
+    margin-bottom: 32px;
+}
+.donate-header h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+.donate-header p{
+     line-height: 24px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.donate-card-container{
+    display: flex;
+    gap: 24px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.041);
+}
+.donate-card{
+    display: flex;
+    gap: 24px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.041);
+    padding: 24px;
+}
